@@ -1,0 +1,410 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Howdy",
+        "Greetings",
+        "What's up",
+        "Hello there",
+        "Hi there",
+        "Hey there",
+        "Hi bot",
+        "Good day",
+        "Hello friend",
+        "Yo",
+        "Hey buddy",
+        "Hi how are you"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How's it going?",
+        "Greetings! How can I assist you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Farewell",
+        "See you",
+        "Catch you later",
+        "Until next time",
+        "Goodbye for now",
+        "Bye bye",
+        "I have to go",
+        "Talk to you later",
+        "See you soon",
+        "Good night",
+        "I am leaving",
+        "Gotta go",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care!",
+        "Until next time!",
+        "Farewell!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help",
+        "Much appreciated",
+        "Thanks a lot",
+        "Thank you so much",
+        "Thank you very much",
+        "Thanks a ton",
+        "I appreciate it",
+        "I appreciate your help",
+        "Cheers",
+        "That was helpful",
+        "Great thanks",
+        "Thanks bot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "Glad I could help!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What are you",
+        "Who are you",
+        "What do you do",
+        "Tell me about yourself",
+        "What is your purpose",
+        "What can you do",
+        "Are you a robot",
+        "Are you a bot",
+        "Who made you",
+        "Introduce yourself",
+        "What is your name",
+        "What are you capable of",
+        "Describe yourself",
+        "Tell me what you are"
+      ],
+      "responses": [
+        "I'm an AI chatbot designed to help answer questions and have conversations!",
+        "I'm a helpful assistant created to chat and provide information.",
+        "I'm your friendly AI companion here to help with various questions!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like",
+        "How's the weather",
+        "Is it raining",
+        "Is it sunny",
+        "Weather forecast",
+        "Temperature today",
+        "Climate",
+        "Will it rain today",
+        "Is it going to rain",
+        "How hot is it outside",
+        "Is it cold today",
+        "What is the temperature",
+        "Weather today",
+        "Weather report",
+        "Is it snowing"
+      ],
+      "responses": [
+        "I can't check real-time weather, but you can check your local weather app or website for current conditions!",
+        "For accurate weather information, I recommend checking a weather service like Weather.com or your local weather app."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "Current time",
+        "What's the time",
+        "Time please",
+        "Tell me the time",
+        "What is the time now",
+        "Do you know the time",
+        "Can you tell me the time",
+        "What time is it now",
+        "Current time please",
+        "Tell me what time it is"
+      ],
+      "responses": [
+        "I don't have access to real-time data, but you can check the time on your device!",
+        "Please check your system clock for the current time."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "Python programming",
+        "How to code",
+        "Programming help",
+        "Learn programming",
+        "Best programming language",
+        "Coding tips",
+        "Software development",
+        "How do I learn Python",
+        "Which programming language should I learn",
+        "Tips for coding",
+        "How to become a programmer",
+        "Help me with coding",
+        "What is the best language to code in",
+        "Learn to code",
+        "Python tutorial",
+        "How to start programming"
+      ],
+      "responses": [
+        "Python is a great language to start with! It's beginner-friendly and versatile.",
+        "Programming requires practice - start with small projects and gradually build complexity.",
+        "Some popular languages include Python, JavaScript, Java, and C++. Choose based on your goals!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ai_ml",
+      "patterns": [
+        "Machine learning",
+        "Artificial intelligence",
+        "AI",
+        "ML",
+        "Neural networks",
+        "Deep learning",
+        "Data science",
+        "Tell me about machine learning",
+        "What is machine learning",
+        "Explain artificial intelligence",
+        "What is deep learning",
+        "How do neural networks work",
+        "Tell me about AI",
+        "What is data science",
+        "Explain ML",
+        "Teach me about AI"
+      ],
+      "responses": [
+        "Machine learning is fascinating! It involves algorithms that learn patterns from data.",
+        "AI and ML are transforming many industries. Would you like to know about specific applications?",
+        "Neural networks are inspired by how the human brain works - they're great for pattern recognition!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "Study tips",
+        "How to learn",
+        "Education advice",
+        "Learning resources",
+        "Online courses",
+        "University",
+        "College",
+        "How can I study better",
+        "Best way to learn",
+        "Tips for studying",
+        "Where can I take online courses",
+        "Which university should I choose",
+        "Help me study",
+        "Exam preparation tips",
+        "How to prepare for exams",
+        "Learning advice"
+      ],
+      "responses": [
+        "Consistent practice and active learning are key to academic success!",
+        "Break down complex topics into smaller, manageable chunks.",
+        "Online platforms like Coursera, edX, and Khan Academy offer great learning resources."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "Latest technology",
+        "Tech news",
+        "Innovation",
+        "Smartphones",
+        "Computers",
+        "Software",
+        "Hardware",
+        "What is new in tech",
+        "Tell me about the latest gadgets",
+        "Newest technology trends",
+        "Tell me about computers",
+        "Tech trends",
+        "What are the latest innovations",
+        "Tell me about smartphones"
+      ],
+      "responses": [
+        "Technology is constantly evolving! What specific area interests you?",
+        "From smartphones to quantum computing, tech continues to amaze us!",
+        "Is there a particular technology topic you'd like to discuss?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need help",
+        "Can you help",
+        "Assist me",
+        "Support",
+        "I'm stuck",
+        "Need assistance",
+        "Can you assist me",
+        "Please help me",
+        "I need some help",
+        "Help me please",
+        "I need assistance",
+        "Could you help me",
+        "I need support",
+        "I am stuck can you help"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "I'm here to help! Please tell me more about what you need.",
+        "How can I assist you today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "Project ideas",
+        "What to build",
+        "Programming projects",
+        "Coding projects",
+        "Portfolio projects",
+        "Github projects",
+        "Give me project ideas",
+        "What project should I build",
+        "Suggest a coding project",
+        "Ideas for a portfolio project",
+        "What should I make",
+        "Project ideas for beginners",
+        "Good projects for my resume",
+        "Suggest some projects"
+      ],
+      "responses": [
+        "Some great project ideas: chatbots, web scrapers, personal finance trackers, or game development!",
+        "Consider building something that solves a problem you face daily.",
+        "Portfolio projects are great - try building a web app, mobile app, or data analysis tool!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "career",
+      "patterns": [
+        "Career advice",
+        "Job search",
+        "Resume",
+        "Interview tips",
+        "Career change",
+        "Professional development",
+        "Give me career advice",
+        "How do I find a job",
+        "Tips for my resume",
+        "How to prepare for an interview",
+        "How to get a job",
+        "Should I change careers",
+        "How to grow in my career",
+        "Help with my CV"
+      ],
+      "responses": [
+        "Focus on building relevant skills and a strong portfolio!",
+        "Networking and continuous learning are crucial for career growth.",
+        "Tailor your resume to each job application and practice common interview questions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I'm demotivated",
+        "Need motivation",
+        "Feeling lazy",
+        "Can't focus",
+        "Procrastination",
+        "Stuck in life",
+        "I feel demotivated",
+        "I need some motivation",
+        "I am feeling lazy",
+        "I cannot concentrate",
+        "I keep procrastinating",
+        "Motivate me",
+        "I have no motivation",
+        "I feel stuck in life",
+        "I am feeling unmotivated"
+      ],
+      "responses": [
+        "Remember why you started! Every expert was once a beginner.",
+        "Take it one step at a time. Small progress is still progress!",
+        "It's okay to have bad days. What matters is getting back up and trying again."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "error_handling",
+      "patterns": [
+        "Error",
+        "Bug",
+        "Not working",
+        "Problem",
+        "Issue",
+        "Something wrong",
+        "Broken",
+        "My code has an error",
+        "I got a bug",
+        "It is not working",
+        "I have a problem",
+        "Something is broken",
+        "My program is crashing",
+        "There is an issue with my code",
+        "Something went wrong",
+        "I keep getting an error"
+      ],
+      "responses": [
+        "I understand you're facing an issue. Can you provide more specific details?",
+        "Debugging can be frustrating! Try breaking down the problem into smaller parts.",
+        "What specific error or problem are you encountering?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "default",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "I'm not sure I understand. Could you please rephrase that?",
+        "Can you provide more details about what you're asking?",
+        "I'd like to help, but I need more information about your question."
+      ],
+      "context_set": ""
+    }
+  ]
+}
